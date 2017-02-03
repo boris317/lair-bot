@@ -4,6 +4,9 @@
   "private": true,
   "author": "boris317@gmail.com",
   "description": "Resistance is futile",
+  "scripts": {
+    "start": "./bin/hubot --adapter slack"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
