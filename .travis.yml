@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - "6"
-  
+- '6'
 deploy:
   provider: heroku
   api_key:
@@ -9,3 +8,6 @@ deploy:
   app: intense-waters-11729
   on:
     repo: boris317/lair-bot
+notifications:
+  slack:
+    secure: XnrQ8S982zUe5y7Y51/uEzSN56OmI2wTxisqfpBYxgrb31q7pdpt3QOPinsZLHb3EUJIehiAtpT9QnFWVS81YCvBTWpCUSGQgon2kKwQsz1V+lyLvCRgdvn784xJXyL70ur1U8m/5oXoFaPy/3nfdJt63/p6FEK++1xAtfCxZaAIEqSUfWWzlFi/X4OIW3qDWkbSjtD5rq3olbNZvAV/IL5buQN5D9bcvqHhlDkpf6x1pywbQlxBmPJ2UELPXvQ8F4+490qrpojydKIVRvxkmTZx2PXdb4ZSZlvwXLb5Fy059NtzMIezBjLRiKoMCq/vTa5chaBy2gGbuWIbyLELjkpK12rdC9/Iov+gFenOaCoMluEIEYozocXjUTllcISBwmXv1wlGNiAMrK0e8JimH5XiepP6JYpW4N/aM2uglwxUeUBtAoRnIBeECF28sSVRvXWxJ+B+nBYHc9VfpDrfvAU8/uNS7EcggiW5e8Ip/BeZroaZ5hOQ23/F28ucqWr3ynno8JiZxLOj6+LLz5o0l8mEALxLOVMT+P0ryFn1eeL744LSA5XgQzDs3STxeng7HZ6YM7JR8KJsjiyuphgURt0oVPqKOybAG/fcBg5+Aga/21fAjOHAOSOzMtfWralnE4cqPuuWOI8Q/1DE3HmD1nARZLDdR+iTySDp6jADCyI=
